@@ -21,7 +21,7 @@ class Character:
         print(f"{self.name} is attacking {target.name}!")
         target.take_damage(self.dmg)
 
-# Function to print the character list TODO maybe an easier way?
+# Function to print the characters from character_list TODO maybe an easier way to accomplish this?
 def print_character_list(character_list):
     for i, character in enumerate(character_list, start=1):
         print(f"character{i} | {character}")
